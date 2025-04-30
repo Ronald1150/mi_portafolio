@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi Portada Personal</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body,
+      html {
+        height: 100%;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Estilo del video de fondo */
+      .video-fondo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+        object-fit: cover;
+      }
+
+      /* Contenido por encima del video */
+      .contenido {
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding: 40px;
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.5
+        ); /* Fondo oscuro semitransparente */
+      }
+
+      img {
+        width: 250px;
+        border-radius: 10px;
+        margin: 20px 0;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        background: rgba(255, 255, 255, 0.2);
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 5px;
+        max-width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Video de fondo -->
+    <video class="video-fondo" autoplay muted loop>
+      <source
+        src="./assets/Korn - Freak On a Leash (Official HD Video) - KornVEVO (1080p, h264).mp4"
+        type="video/mp4"
+      />
+      Tu navegador no soporta videos HTML5.
+    </video>
+
+    <!-- Contenido -->
+    <div class="contenido">
+      <h1>Mi Portada Personal</h1>
+      <img
+        src="https://via.placeholder.com/250"
+        alt="Mi foto o imagen representativa"
+      />
+
+      <h2>Nombres</h2>
+      <p>Juan Pérez Rodríguez</p>
+
+      <h2>Descripción</h2>
+      <p>
+        Soy un estudiante apasionado por la tecnología, la música y el diseño.
+        Me gusta aprender cosas nuevas y disfrutar del proceso.
+      </p>
+
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Escuchar música</li>
+        <li>Jugar videojuegos</li>
+        <li>Leer sobre ciencia y tecnología</li>
+      </ul>
+
+      <h2>Pasatiempos</h2>
+      <ul>
+        <li>Ver películas de ciencia ficción</li>
+        <li>Salir a caminar</li>
+        <li>Editar fotos</li>
+      </ul>
+
+      <h2>Actividades favoritas</h2>
+      <ul>
+        <li>Diseñar páginas web</li>
+        <li>Practicar deporte</li>
+        <li>Crear contenido digital</li>
+      </ul>
+    </div>
+  </body>
+</html>

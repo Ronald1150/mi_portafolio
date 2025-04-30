@@ -8,3 +8,4 @@ haciendo uso de las etiquetas estudiadas en clase crear la portadad principal co
 - pasatiempos
 - actividades favoritas
   observacion la pagina debera tener al menos una imagen
+  assets\imagen_de_viñeta.png
