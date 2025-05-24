@@ -1,114 +1,55 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Mi Portada Personal</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body,
-      html {
-        height: 100%;
-        font-family: Arial, sans-serif;
-      }
-
-      /* Estilo del video de fondo */
-      .video-fondo {
-        position: fixed;
-        top: 0;
-        left: 0;
-        min-width: 100%;
-        min-height: 100%;
-        z-index: -1;
-        object-fit: cover;
-      }
-
-      /* Contenido por encima del video */
-      .contenido {
-        position: relative;
-        z-index: 1;
-        color: white;
-        text-align: center;
-        padding: 40px;
-        background-color: rgba(
-          0,
-          0,
-          0,
-          0.5
-        ); /* Fondo oscuro semitransparente */
-      }
-
-      img {
-        width: 250px;
-        border-radius: 10px;
-        margin: 20px 0;
-      }
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-
-      li {
-        background: rgba(255, 255, 255, 0.2);
-        margin: 10px auto;
-        padding: 10px;
-        border-radius: 5px;
-        max-width: 400px;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mi portafolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <!-- Video de fondo -->
-    <video class="video-fondo" autoplay muted loop>
-      <source
-        src="./assets/Korn - Freak On a Leash (Official HD Video) - KornVEVO (1080p, h264).mp4"
-        type="video/mp4"
-      />
-      Tu navegador no soporta videos HTML5.
-    </video>
+  <body class="cuerpo">
+    <header>
+      <header class="cabesera">
+        <h1 class="title_Roboto">Mi Portafolio</h1>
+      </header>
+      <img src="./assets/bboy_img-png.png" alt="" class="img" />
+      <article class="text_container">
+        Soy Ronald Valencia Quispe, tengo 21 años y soy de Perú. Me apasiona la
+        programación y el desarrollo de videojuegos, campos donde puedo combinar
+        creatividad con lógica. Me considero perfeccionista y un poco arrogante,
+        cualidades que me impulsan a mejorar constantemente. Disfruto jugar
+        videojuegos y hacer ejercicio, a ctividades que equilibran mi mente y
+        cuerpo mientras persigo mi objetivo de crecer personal y
+        profesionalmente.
+      </article>
+    </header>
+    <header class="social_continer">
+      <article>
+        <a href="https://github.com/Ronald1150"
+          ><img src="./assets/github.png" alt="" height="60px"
+        /></a>
+        <a href="https://www.youtube.com/@RONALDVALENCIAQUISPE"
+          ><img src="./assets/youtube.png" alt="" height="60px"
+        /></a>
+        <a href="https://www.facebook.com/"
+          ><img src="./assets/facebook.png" alt="" height="60px"
+        /></a>
+        <h3>Mis Redes Sociales</h3>
+      </article>
+    </header>
+    <footer>
+      <article class="footer_article">
+        <h4 class="footer_content">
+          © 2025 Ronald Valencia Quispe. Todos los derechos reservados.
+        </h4>
+      </article>
+    </footer>
 
-    <!-- Contenido -->
-    <div class="contenido">
-      <h1>Mi Portada Personal</h1>
-      <img
-        src="https://via.placeholder.com/250"
-        alt="Mi foto o imagen representativa"
-      />
-
-      <h2>Nombres</h2>
-      <p>Juan Pérez Rodríguez</p>
-
-      <h2>Descripción</h2>
-      <p>
-        Soy un estudiante apasionado por la tecnología, la música y el diseño.
-        Me gusta aprender cosas nuevas y disfrutar del proceso.
-      </p>
-
-      <h2>Hobbies</h2>
-      <ul>
-        <li>Escuchar música</li>
-        <li>Jugar videojuegos</li>
-        <li>Leer sobre ciencia y tecnología</li>
-      </ul>
-
-      <h2>Pasatiempos</h2>
-      <ul>
-        <li>Ver películas de ciencia ficción</li>
-        <li>Salir a caminar</li>
-        <li>Editar fotos</li>
-      </ul>
-
-      <h2>Actividades favoritas</h2>
-      <ul>
-        <li>Diseñar páginas web</li>
-        <li>Practicar deporte</li>
-        <li>Crear contenido digital</li>
-      </ul>
-    </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
